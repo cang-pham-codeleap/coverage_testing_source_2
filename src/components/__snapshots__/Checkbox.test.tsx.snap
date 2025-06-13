@@ -20,7 +20,7 @@ exports[`Checkbox Component applies custom class name 1`] = `
             
             
           "
-    id="checkbox-0ljx9umlt"
+    id=":r8:"
     type="checkbox"
     value=""
   />
@@ -45,7 +45,7 @@ exports[`Checkbox Component disables the checkbox when disabled prop is true 1`]
             opacity-50 cursor-not-allowed
           "
   disabled=""
-  id="checkbox-8mnm81qro"
+  id=":r4:"
   type="checkbox"
   value=""
 />
@@ -84,7 +84,7 @@ exports[`Checkbox Component handles controlled state changes 1`] = `
             
             
           "
-  id="checkbox-b5vzccnzt"
+  id=":r2:"
   type="checkbox"
   value=""
 />
@@ -107,7 +107,7 @@ exports[`Checkbox Component handles uncontrolled state changes 1`] = `
             
             
           "
-  id="checkbox-u7qxsj3cq"
+  id=":r3:"
   type="checkbox"
   value=""
 />
@@ -130,7 +130,7 @@ exports[`Checkbox Component handles uncontrolled state changes 2`] = `
             
             
           "
-  id="checkbox-u7qxsj3cq"
+  id=":r3:"
   type="checkbox"
   value=""
 />
@@ -153,7 +153,7 @@ exports[`Checkbox Component handles uncontrolled state changes 3`] = `
             
             
           "
-  id="checkbox-u7qxsj3cq"
+  id=":r3:"
   type="checkbox"
   value=""
 />
@@ -208,7 +208,7 @@ exports[`Checkbox Component renders correctly with default props 1`] = `
             
             
           "
-        id="checkbox-cyxd3b4ui"
+        id=":r0:"
         type="checkbox"
         value=""
       />
@@ -220,7 +220,7 @@ exports[`Checkbox Component renders correctly with default props 1`] = `
 exports[`Checkbox Component renders with a label 1`] = `
 <label
   class="ml-2 text-base cursor-pointer"
-  for="checkbox-ee1jmcjag"
+  for=":r1:"
 >
   Test Label
 </label>
@@ -243,7 +243,7 @@ exports[`Checkbox Component renders with a label 2`] = `
             
             
           "
-  id="checkbox-ee1jmcjag"
+  id=":r1:"
   type="checkbox"
   value=""
 />
@@ -273,14 +273,14 @@ exports[`Checkbox Component renders with different sizes 1`] = `
             
             
           "
-        id="checkbox-9eehmzvb6"
+        id=":r6:"
         type="checkbox"
         value=""
       />
     </div>
     <label
       class="ml-2 text-sm cursor-pointer"
-      for="checkbox-9eehmzvb6"
+      for=":r6:"
     >
       Small
     </label>
@@ -312,14 +312,14 @@ exports[`Checkbox Component renders with different sizes 2`] = `
             
             
           "
-        id="checkbox-9eehmzvb6"
+        id=":r6:"
         type="checkbox"
         value=""
       />
     </div>
     <label
       class="ml-2 text-base cursor-pointer"
-      for="checkbox-9eehmzvb6"
+      for=":r6:"
     >
       Medium
     </label>
@@ -351,14 +351,14 @@ exports[`Checkbox Component renders with different sizes 3`] = `
             
             
           "
-        id="checkbox-9eehmzvb6"
+        id=":r6:"
         type="checkbox"
         value=""
       />
     </div>
     <label
       class="ml-2 text-lg cursor-pointer"
-      for="checkbox-9eehmzvb6"
+      for=":r6:"
     >
       Large
     </label>
@@ -383,7 +383,7 @@ exports[`Checkbox Component sets the indeterminate state correctly 1`] = `
             bg-blue-600 border-blue-600
             
           "
-  id="checkbox-kii06k660"
+  id=":r5:"
   type="checkbox"
   value=""
 />
