@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Component applies additional HTML attributes 1`] = `
+<p
+  class="text-base font-normal text-gray-900"
+  data-testid="custom-text"
+  id="special-text"
+>
+  Custom Attribute
+</p>
+`;
+
+exports[`Text Component renders text with children 1`] = `
+<p
+  class="text-base font-normal text-gray-900"
+>
+  Sample Text
+</p>
+`;

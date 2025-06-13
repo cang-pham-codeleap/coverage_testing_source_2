@@ -1,0 +1,41 @@
+name: Check Pull Request
+
+on:
+  push:
+    branches:
+      - feat/*
+      - main
+
+jobs:
+  teamscale-upload:
+    name: Upload to Teamscale
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm run test:coverage
+
+      - name: teamscale-upload
+        uses: "cqse/teamscale-upload-action@v2.9.5"
+        with:
+          server: "https://test-coverage-1.teamscale.io"
+          project: "jtl_test"
+          user: "cang.pham@codeleap.de"
+          partition: "coverage-2"
+          accesskey: eth3ZppHFItr8WSDmMJrYHXGvzRiMTIE
+          format: "cobertura"
+          files: "coverage/cobertura-coverage.xml"
+          revision: "${{ github.event.head_commit.id }}"
+          message: "${{ github.event.head_commit.message }}"

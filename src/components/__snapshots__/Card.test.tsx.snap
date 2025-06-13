@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component applies additional props to the card element 1`] = `
+<div
+  class="rounded-lg overflow-hidden bg-white"
+  data-testid="custom-card"
+  id="special-card"
+>
+  <div
+    class="p-4"
+  >
+    Card with Custom Props
+  </div>
+</div>
+`;
+
+exports[`Card Component applies correct padding size classes 1`] = `"p-0"`;
+
+exports[`Card Component applies correct padding size classes 2`] = `"p-3"`;
+
+exports[`Card Component applies correct padding size classes 3`] = `"p-4"`;
+
+exports[`Card Component applies correct padding size classes 4`] = `"p-6"`;
+
+exports[`Card Component applies custom className when provided 1`] = `""`;
+
+exports[`Card Component correctly renders a complex card with all features 1`] = `
+<div
+  class="py-3 px-6 font-medium"
+>
+  Complex Card
+</div>
+`;
+
+exports[`Card Component correctly renders a complex card with all features 2`] = `
+<div
+  class="p-6"
+>
+  Complex Card Content
+</div>
+`;
+
+exports[`Card Component correctly renders a complex card with all features 3`] = `
+<button>
+  Action Button
+</button>
+`;
+
+exports[`Card Component correctly renders a complex card with all features 4`] = `
+<div>
+  <div
+    class="rounded-lg overflow-hidden bg-white border border-gray-200"
+  >
+    <div
+      class="py-3 px-6 font-medium"
+    >
+      Complex Card
+    </div>
+    <div
+      class="border-t border-gray-200"
+    />
+    <div
+      class="p-6"
+    >
+      Complex Card Content
+    </div>
+    <div
+      class="border-t border-gray-200"
+    />
+    <div
+      class="py-3 px-6"
+    >
+      <button>
+        Action Button
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card Component renders bordered variant when specified 1`] = `""`;
+
+exports[`Card Component renders card with children 1`] = `
+<div
+  class="p-4"
+>
+  Card Content
+</div>
+`;
+
+exports[`Card Component renders default variant by default 1`] = `""`;
+
+exports[`Card Component renders elevated variant when specified 1`] = `""`;
+
+exports[`Card Component renders footer when provided 1`] = `
+<div>
+  Card Footer
+</div>
+`;
+
+exports[`Card Component renders title when provided 1`] = `
+<div
+  class="py-3 px-4 font-medium"
+>
+  Card Title
+</div>
+`;

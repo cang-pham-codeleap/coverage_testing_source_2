@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label Component applies additional HTML attributes 1`] = `
+<label
+  class="text-sm font-medium text-gray-700"
+  data-testid="custom-label"
+  for="test-input"
+>
+  Custom Attribute
+</label>
+`;
+
+exports[`Label Component renders label with children 1`] = `
+<label
+  class="text-sm font-medium text-gray-700"
+  for="test-input"
+>
+  Test Label
+</label>
+`;
