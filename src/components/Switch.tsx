@@ -59,7 +59,7 @@ const Switch: React.FC<SwitchProps> = ({
   const [internalChecked, setInternalChecked] =
     useState<boolean>(defaultChecked);
 
-  // Determine if component is controlled or uncontrolled
+  // Determine if component is controlled or uncontrolled component
   const isControlled = checked !== undefined;
   const isChecked = isControlled ? checked : internalChecked;
 
