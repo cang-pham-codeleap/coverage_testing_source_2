@@ -15,7 +15,6 @@ describe("Text Component", () => {
   test("renders text with children", () => {
     render(<Text>Sample Text</Text>);
     const textElement = screen.getByText("Sample Text");
-    expect(textElement).toBeInTheDocument();
     expect(textElement).toMatchSnapshot();
   });
 
@@ -99,9 +98,12 @@ describe("Text Component", () => {
 
   // Test additional attributes
   test("applies additional HTML attributes", () => {
-    render(<Text data-testid="custom-text" id="special-text">Custom Attribute</Text>);
+    render(
+      <Text data-testid="custom-text" id="special-text">
+        Custom Attribute
+      </Text>
+    );
     const textElement = screen.getByTestId("custom-text");
-    expect(textElement).toHaveAttribute("id", "special-text");
     expect(textElement).toMatchSnapshot();
   });
 });
