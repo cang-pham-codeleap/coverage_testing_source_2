@@ -3,6 +3,7 @@ name: Check Push
 on:
   push:
     branches:
+      - feat/*
       - main
 
 jobs:
